@@ -1,0 +1,8 @@
+Max_Num = int(input('Max_Num의 값을 정해주세요 : '))
+contact = []
+while True:
+    a = int(input("1.Registration 2.ShowAll 3.Delete 4.FindByBirth 5.Exit\n"))
+    if a == 1:
+        tem = (input("이름 번호 생일을 입력하세요.\n"))
+        contact.append(tem)
+        print(contact)
